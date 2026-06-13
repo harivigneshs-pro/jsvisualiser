@@ -9,8 +9,8 @@ export interface WebTask {
 export interface VisualizerState {
   callStack: string[];
   webAPIs: WebTask[];
-  microtaskQueue: string[]; // 👈 Added
-  macrotaskQueue: string[]; // 👈 Renamed from callbackQueue
+  microtaskQueue: string[]; // Added
+  macrotaskQueue: string[]; // Renamed from callbackQueue
   consoleLogs: string[];
   currentLine: number;
 }
